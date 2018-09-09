@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Location from './components/location/location';
 
 class App extends Component {
     constructor(){
@@ -9,7 +9,7 @@ class App extends Component {
     
         return (
                 <div>
-                    Yo World
+                    <Location />
                 </div>
             );
     }
