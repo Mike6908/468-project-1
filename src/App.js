@@ -4,6 +4,9 @@ import Location from './components/location/location';
 class App extends Component {
     constructor(){
         super();
+        this.state = {
+            entered: false
+        }
     }
     render(){
     
